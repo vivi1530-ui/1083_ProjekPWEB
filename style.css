@@ -1,0 +1,14 @@
+/* Efek kartu agar sedikit lebih elegan */
+aside .card {
+    transition: transform 0.3s ease;
+}
+
+aside .card:hover {
+    transform: translateY(-5px);
+}
+
+/* List catatan agar lebih rapi */
+aside ul li {
+    color: var(--dark-brown);
+    line-height: 1.4;
+}
